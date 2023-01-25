@@ -1,17 +1,27 @@
 ---
 layout: post
-title: Citrix NetScaler Always Up Service
+title: Citrix NetScaler - Always Up Service
 image: 
-  path: /assets/img/scripts/ha_banner.jpg
+  path: /assets/img/scripts/always-up.png
 description: >
-  Configure an Always Up service on a Citrix NetScaler.
+  This script will configure an Always Up Service on your NetScaler. This can be used to bind to Virtual Servers on Port 80 with a Redirect to ensure all traffic passes to port 443. Please note that this will alter the configuration on your Citrix NetScaler and should be tested before implementing into your production environment.
 sitemap: true
 categories: [NetScaler]
+comments: true
 ---
 
-This script will create an Always Up service on your Citrix NetScaler for use when binding to a port 80 vServer that you wish to redirect to port 443. To implement the following script log into your NetScaler CLI and execute the following commands.
+* 
+{:toc}
 
-## Citrix NetScaler Always Up Service Commands 
+## Script Description
+
+This script will create an Always Up service on your Citrix NetScaler for use when binding to a port 80 vServer that you wish to redirect to port 443. 
+
+## Script Deployment
+
+To implement the following script copy the below commands into your NetScaler CLI.
+
+## Script Contents
 
 ```
 add server always_up 127.0.0.1

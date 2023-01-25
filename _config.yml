@@ -27,7 +27,7 @@ title:                 bretty.me.uk
 description:           >
   bretty.me.uk is a blog focussed on EUC and Security. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey.
 # A shorter description for the sidebar.
-tagline:               Geek and Ultra Runner
+tagline:               EUC Geek and Ultra Runner
 
 # A list of keywords for your blog
 keywords:              []
@@ -53,6 +53,8 @@ menu:
     url:               /scripts/
   - title:             About
     url:               /about/
+  - title:             Community
+    url:               /community/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -72,13 +74,13 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /:num/
+paginate_path:         /blog/:num/
 
 
 # Theme
 # ---------------------------------------------------------------------------------------
 
-# theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 
@@ -172,7 +174,7 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                disqus_3iANguXt0H
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -248,7 +250,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.

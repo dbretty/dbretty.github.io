@@ -1,17 +1,25 @@
 ---
 layout: post
-title: Disable PowerShell v2
+title: Disable PowerShell Version 2
 image: 
-  path: /assets/img/scripts/security_banner.jpg
+  path: /assets/img/scripts/disable-posh2.png
 description: >
-  Disable PowerShell Version 2 from your system.
+  This script will disable PowerShell Version 2 on your system. It will alter your servers ability to operate PowerShell and should be tested before implementing into your production environment.
 sitemap: true
 categories: [Security, PowerShell]
+comments: true
 ---
+* 
+{:toc}
 
-To disable PowerShell Version 2 from your system you can run the following script.
+## Script Description
+This script will Disable PowerShell version 2 from your system in order to disable the ability to run PowerShell without any logging.
 
-## Disable PowerShell Version 2 
+## Script Deployment
+
+Open up PowerShell as an Administrator on the system you wish to lock and run the below commands. Be sure to restart all PowerShell sessions after you have run the script.
+
+## Script Contents 
 
 ```powershell
 # Determine where to do the logging

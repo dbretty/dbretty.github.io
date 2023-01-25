@@ -1,20 +1,30 @@
 ---
 layout: post
-title: Secure Citrix StoreFront IIS Site
+title: Secure Citrix StoreFront IIS Defaults
 image: 
-  path: /assets/img/scripts/security_banner.jpg
+  path: /assets/img/scripts/secure-storefront-iis.png
 description: >
-  Set the approved File Extensions and Verbs for a Citrix StoreFront deployment.
+  This script will set the approved IIS File Extensions and Verbs for a Citrix StoreFront deployment. Please note that this will alter the default IIS configuration and should be tested before implementing into your production environment.
+  <br/><br/>
+  This is based from the Citrix StoreFront Security guide found [here](https://docs.citrix.com/en-us/storefront/current-release/secure.html)
 categories: [StoreFront, Security]
 sitemap: true
+comments: true
 ---
+* 
+{:toc}
 
-Citrix StoreFront can be hardened and locked to only use specific file extensions and verbs as documented in the Citrix article found [here](https://docs.citrix.com/en-us/storefront/current-release/secure.html). To implement this open up a Command Prompt as an Administrator on your StoreFront servers and copy the below script into the window.  Once run be sure to restart IIS using the following command
+## Script Description
+A default Citrix StoreFront installation can be hardened and locked to only use specific file extensions and verbs as documented in the Citrix article found [here](https://docs.citrix.com/en-us/storefront/current-release/secure.html). This script will set those extensions and verbs to the defined allowed set and block any non-specific extensions or verbs being used.
+
+## Script Deployment
+
+To implement this open up a Command Prompt as an Administrator on your Citrix StoreFront servers and copy the below script into the window.  Once run, be sure to restart IIS using the following command
 
 ```
 IISReset
 ```
-## Secure IIS Commands 
+## Script Contents 
 
 ```
 %systemroot%\system32\inetsrv\AppCmd.exe set config "Default Web Site" /section:requestfiltering /fileExtensions.allowunlisted:false "/commit:apphost"
