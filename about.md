@@ -1,9 +1,7 @@
 ---
 layout: about
-image: /assets/img/blog/hydejack-9.jpg
 description: >
-  A boutique Jekyll theme for hackers, nerds, and academics,
-  with a focus on personal sites that are meant to impress.
+  About bretty.me.uk - here you can find out what I am about and what I do.
 hide_description: true
 redirect_from:
   - /download/
@@ -13,6 +11,20 @@ redirect_from:
 
 <!--author-->
 
-# Get In Touch
+## Community
 
-If you would like to get in touch with me for any reason then you can use any of the links shown on the left-hand side of this page.
+### Citrix Technology Professional
+
+I am lucky enough to be part of this amazing group of people who share information about the Citrix technology stack free to many people around the globe. To view the current CTP awardees click [here](https://www.citrix.com/community/ctp/awardees.html)
+
+![](/assets/img/ctp_badge.png)
+
+### World Of EUC Slack Channel
+
+The World of EUC Slack group is where you can discuss all things EUC - check it out [here](https://worldofeuc.slack.com)
+
+![](/assets/img/slack.jpg)
+
+## Get In Touch
+
+If you would like to get in touch with me for any reason then you can use any of the links shown on the left-hand side of this page or email me at [dave@bretty.me.uk](mailto:dave@bretty.me.uk)

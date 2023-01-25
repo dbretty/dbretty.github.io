@@ -1,15 +1,19 @@
 ---
 layout: post
-title: Secure unquoted service paths
+title: Secure Unquoted Service Paths
 image: 
-  path: /assets/img/2019-10-15-secure-unquoted-service-paths/00.jpg
+  path: /assets/img/posts/2019-10-15-secure-unquoted-service-paths/unquoted-services.png
 description: >
-  This post will walk you through a common flaw with service paths and quoting.
+  This post will walk you through a common flaw with service paths and quoting. <br/><br/>Being able to inject an executable into a service path can cause you all sorts of issues with your security teams.
 sitemap: true
 categories: [Security]
+comments: true
 ---
+* 
+{:toc}
 
-> This was brought to my attention recently when being “ethically” hacked and is an easy one to remediate but apparently one that has been around for a while.
+This was brought to my attention recently when being “ethically” hacked and is an easy one to remediate but apparently one that has been around for a while.
+{:.note title="Attention"}
 
 ### Risk
 
@@ -28,7 +32,7 @@ Open PowerShell on one of your servers that your users connect to and type in th
 ```powershell
 cmd /c 'wmic service get name,displayname,pathname,startmode | findstr /i "auto" | findstr /i /v "c:windows\" | findstr /i /v """'
 ```
-![Unquoted Services](/assets/img/2019-10-15-secure-unquoted-service-paths/01.png)
+![Unquoted Services](/assets/img/posts/2019-10-15-secure-unquoted-service-paths/01.png)
 
 There you can see all the services with unquoted paths – here check for any vendor specific services. You could go through and “Quote” all the services manually, but chances are (and as I did) you will get one wrong and or put the quotes in the wrong place and render the server useless.
 

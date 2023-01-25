@@ -1,17 +1,35 @@
 ---
 layout: post
-title: Citrix StoreFront NetScaler Load Balancer
+title: Citrix NetScaler - StoreFront Load Balancer
 image: 
-  path: /assets/img/scripts/ha_banner.jpg
+  path: /assets/img/scripts/netscaler-storefront-load-balancer.jpg
 description: >
-  Configure a NetScaler Citrix StoreFront Load Balancer.
+  This script will configure a Citrix StoreFront Load Balancer on your NetScaler. Please note that this will alter the configuration on your Citrix NetScaler and should be tested before implementing into your production environment.
+  <br/><br/>
+  This is based from the Citrix StoreFront Load Balancing guide found [here](https://docs.citrix.com/en-us/storefront/3-12/integrate-with-netscaler-and-netscaler-gateway/load-balancing-with-netscaler.html)
 sitemap: true
 categories: [NetScaler, StoreFront]
+comments: true
 ---
 
-Citrix StoreFront can be load balanced behind a Citrix NetScaler to allow for high availability and resilience. To implement the following script log into your NetScaler CLI and execute the following commands.
+* 
+{:toc}
 
-## StoreFront NetScaler Load Balancer Commands 
+## Script Description
+Citrix StoreFront can be load balanced behind a Citrix NetScaler to allow for high availability and resilience. The below commands will configure a Citrix StoreFront Load Balancer on your NetScaler to provide this.
+
+## Script Deployment
+
+To implement the following script copy the below commands into a text editor and replace the following items with your specific details.
+
+- StoreFront IP Addresses
+- StoreFront Load Balancer IP Address
+- Store Name
+- Certificate Name Installed on the NetScaler
+
+Once you have updated the fields above copy the commands into your NetScaler CLI
+
+## Script Contents
 
 ```
 # You will not need to do this part if you already have an AlwaysUp service present on your NetScaler
