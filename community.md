@@ -18,6 +18,11 @@ Below are some community blogs that I follow and think are worth taking a look a
 | Author | Link | 
 |:-----------------|:-----------|
 | James Kindon | [https://jkindon.com](https://jkindon.com) | 
+| George Spiers | [https://jgspiers.com](https://jgspiers.com) | 
+| James Rankin | [https://james-rankin.com](https://james-rankin.com) | 
+| Aaron Parker | [https://stealthpuppy.com](https://stealthpuppy.com) | 
+| Carl Stalhood | [https://carlstalhood.com](https://carlstalhood.com) | 
+| Kasper Johansen| [https://virtualwarlock.net](https://virtualwarlock.net) | 
 
 ## Ultra Running
 
