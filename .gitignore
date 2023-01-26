@@ -53,3 +53,7 @@ _zip
 /assets/js/*hydejack-*
 /_sass/*/__*__/*
 Gemfile.lock
+.vscode/ltex.dictionary.en-US.txt
+.vscode/ltex.dictionary.en-US.txt
+.vscode/ltex.hiddenFalsePositives.en-US.txt
+.vscode/ltex.dictionary.en-US.txt
