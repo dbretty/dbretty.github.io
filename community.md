@@ -5,6 +5,7 @@ description: >
 image: 
   path: /assets/img/community.png
 hide_description: true
+sitemap: true
 ---
 
 # Community 
