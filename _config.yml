@@ -25,12 +25,12 @@ title:                 bretty.me.uk
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  bretty.me.uk is a blog focussed on EUC and Security. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey.
+  bretty.me.uk is an EUC Geek and Ultra Runner. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey as well as some useful Ultra Running links.
 # A shorter description for the sidebar.
 tagline:               EUC Geek and Ultra Runner
 
 # A list of keywords for your blog
-keywords:              []
+keywords:              ["Citrix, NetScaler, Cloud, PowerShell, Community, DaaS, Profiles, CVAD, EUC, Nutanix, Microsoft, AWS, VMWare"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -136,10 +136,10 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  # - scope:
-  #     type:            posts
-  #   values:
-  #     comments:        true
+  - scope:
+      type:            posts
+    values:
+      comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -262,7 +262,7 @@ hydejack:
   hide_dates:          false
 
   # TODO
-  hide_last_modified:  false
+  hide_last_modified:  true
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
