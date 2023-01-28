@@ -7,7 +7,6 @@ description: >
   This post will outline the reasons why you should take a look at your Citrix Policies that come out the box and how to secure them.<br/><br/>Not all defaults are best, they make users happy but what about your SecOps teams? 
 sitemap: true
 categories: [Citrix, VDA, Security]
-tags:       [Citrix, VDA, Security, Policy, DaaS, Cloud, Hacking]
 comments: true
 ---
 * 
