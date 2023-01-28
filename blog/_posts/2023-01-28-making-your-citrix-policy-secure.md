@@ -178,3 +178,7 @@ I have used this one **LOADS** and it is so useful. If you are licensed and have
 For example, a user can log in externally from their corporate laptop, pass the EPA and as the device is managed and trusted you can enable Copy and Paste. However, if that same user logs on from their own device, EPA will fail and the Copy and Paste policy will not apply. Same user, different device and context and therefore different policy.  Super powerful!
 
 ![](/assets/img/posts/2023-01-28-making-your-citrix-policy-secure/11.png)
+
+### Conclusion
+
+Citrix Policy is powerful! You should 100% take a look at your policies you have in place right now and check with your SecOps teams to ensure that your users cannot do things you would not want them to. Trust me, your Citrix environment is one of the first things they will go after and if your policy is not set right, it's a quick win for the attackers!
