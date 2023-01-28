@@ -8,6 +8,7 @@ description: >
 sitemap: true
 categories: [Citrix, VDA, Security]
 comments: true
+applause_button: true
 ---
 * 
 {:toc}
