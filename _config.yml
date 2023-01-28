@@ -174,7 +174,7 @@ google_analytics:      UA-38537214-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                bretty-me-uk
+# disqus:                bretty-me-uk
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -411,6 +411,7 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
+      applause_button: true
     projects:
       layout: project
       description: > 
