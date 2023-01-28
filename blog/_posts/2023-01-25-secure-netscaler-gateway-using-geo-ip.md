@@ -6,7 +6,7 @@ image:
 description: >
   This post will walk you through securing your Citrix NetScaler services using the Geo IP capabilities built into the NetScaler. 
 sitemap: true
-categories: [Security, NetScaler]
+categories: [Security, NetScaler, Citrix]
 comments: true
 ---
 * 

@@ -6,7 +6,7 @@ image:
 description: >
   This post will walk you through securing lateral movement in your EUC environment.<br/><br/>This will help with security as it will prevent your users moving from one system to the next in your production environment. 
 sitemap: true
-categories: [Security, VDA]
+categories: [Security, VDA, Citrix]
 comments: true
 ---
 * 

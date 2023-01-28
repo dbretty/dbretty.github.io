@@ -8,7 +8,7 @@ description: >
   <br/><br/>
   This is based from the Citrix StoreFront Load Balancing guide found [here](https://docs.citrix.com/en-us/storefront/3-12/integrate-with-netscaler-and-netscaler-gateway/load-balancing-with-netscaler.html)
 sitemap: true
-categories: [NetScaler, StoreFront]
+categories: [NetScaler, StoreFront, Citrix]
 comments: true
 ---
 

@@ -7,7 +7,7 @@ description: >
   This script will set the approved IIS File Extensions and Verbs for a Citrix StoreFront deployment. Please note that this will alter the default IIS configuration and should be tested before implementing into your production environment.
   <br/><br/>
   This is based from the Citrix StoreFront Security guide found [here](https://docs.citrix.com/en-us/storefront/current-release/secure.html)
-categories: [StoreFront, Security]
+categories: [StoreFront, Security, Citrix]
 sitemap: true
 comments: true
 ---

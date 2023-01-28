@@ -6,7 +6,7 @@ image:
 description: >
   This post will walk you through securing your local drive access on your end points.<br/><br/>This will help with security as it will prevent your users browsing the local system and 'testing' out access. 
 sitemap: true
-categories: [Security, VDA]
+categories: [Security, VDA, Citrix]
 comments: true
 ---
 * 

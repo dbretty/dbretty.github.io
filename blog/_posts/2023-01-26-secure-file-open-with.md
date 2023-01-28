@@ -6,7 +6,7 @@ image:
 description: >
   This post will show you how to secure the File Open-With dialogue box that will potentially allow an attacker to access areas of your virtual desktop that you would otherwise not want them to. 
 sitemap: true
-categories: [Security, VDA]
+categories: [Security, VDA, Citrix]
 comments: true
 ---
 * 

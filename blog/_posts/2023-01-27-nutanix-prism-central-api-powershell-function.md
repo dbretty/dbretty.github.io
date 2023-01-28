@@ -6,7 +6,7 @@ image:
 description: >
   This post will show you how to gather information from the Nutanix Prism Central API using PowerShell.<br/><br/>This code can also be wrapped into a function and re-used to get any information back from the API. 
 sitemap: true
-categories: [PowerShell, Nutanix]
+categories: [PowerShell, Nutanix, Citrix]
 comments: true
 ---
 * 

@@ -6,7 +6,7 @@ image:
 description: >
   This script will configure an Always Up Service on your NetScaler. This can be used to bind to Virtual Servers on Port 80 with a Redirect to ensure all traffic passes to port 443. Please note that this will alter the configuration on your Citrix NetScaler and should be tested before implementing into your production environment.
 sitemap: true
-categories: [NetScaler]
+categories: [NetScaler, Citrix]
 comments: true
 ---
 

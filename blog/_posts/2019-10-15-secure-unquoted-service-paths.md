@@ -6,7 +6,7 @@ image:
 description: >
   This post will walk you through a common flaw with service paths and quoting. <br/><br/>Being able to inject an executable into a service path can cause you all sorts of issues with your security teams.
 sitemap: true
-categories: [Security]
+categories: [Security, Citrix]
 comments: true
 ---
 * 
