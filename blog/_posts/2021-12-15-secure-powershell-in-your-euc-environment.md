@@ -52,13 +52,16 @@ There are some prerequisites to upgrading, so you should take these into account
 
 So, now you are up to PowerShell v5.1 lets just check that. You can do this by logging onto any of your servers and running the following command (in PowerShell of course)
 
-```$PSVersionTable```
+```
+$PSVersionTable
+```
 
 ![](/assets/img/posts/2021-12-15-secure-powershell-in-your-euc-environment/01.png)
 
 So now you have everything up to v5.1 lets move on with securing PowerShell by first disabling PowerShell Version 2.
 
 ### Disable PowerShell v2
+
 As I mentioned earlier, PowerShell v2 has no logging. This means that anyone who gains access to your platform can do pretty much what they want with PowerShell and leave no trace, not something you want. Fortunately Microsoft have made it pretty easy to disable this once you are on v5.1. 
 
 If you want to test prior to see is version 2 is enabled type in the following 2 commands:
