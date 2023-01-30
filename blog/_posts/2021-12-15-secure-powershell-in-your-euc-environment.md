@@ -118,7 +118,9 @@ Enabling this will break certain applications you run so check before implementi
 
 To check what language mode you are using enter the following command
 
-```$ExecutionContext.SessionState.LanguageMode```
+```
+$ExecutionContext.SessionState.LanguageMode
+```
 
 ![](/assets/img/posts/2021-12-15-secure-powershell-in-your-euc-environment/03.png)
 
@@ -133,7 +135,9 @@ $ExecutionContext.SessionState.LanguageMode
 
 As you can see, this works, but the user can just start a new session and get back to FullLanguage mode. To get round this I put a SYSTEM environment variable in to lock the system to ConstrainedMode. Below is a PowerShell script you can use to achieve this
 
-```[Environment]::SetEnvironmentVariable('__PSLockdownPolicy', 4, 'Machine')```
+```
+[Environment]::SetEnvironmentVariable('__PSLockdownPolicy', 4, 'Machine')
+```
 
 ![](/assets/img/posts/2021-12-15-secure-powershell-in-your-euc-environment/05.png)
 
