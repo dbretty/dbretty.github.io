@@ -30,7 +30,7 @@ According to Microsoft Application Masking manages access to an application, fon
 
 Normally this is what it is used for, a group of users "Word Users" for example get access to the installed copy of Word. If you are not in that group then FSLogix App Masking "hides" that application. That's it, gone, like It's not even installed.
 
-I am not going to claim to be clever enough to understand how all of this works under the hood, but, if we applied the same principle to a master image BEFORE we install ANY apps then we could in theory "hide" system applications we don't want users to have access to but leave them there for the Administrators.
+I am not going to claim to be clever enough to understand how all of this works under the hood, but, if we applied the same principle to a master image then we could in theory "hide" system applications we don't want users to have access to but leave them there for the Administrators. This can be done at image creation or even applied to an existing image making retro fitting this easy!
 
 ### Installation
 
