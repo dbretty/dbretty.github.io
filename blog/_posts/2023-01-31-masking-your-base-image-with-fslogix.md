@@ -2,7 +2,7 @@
 layout: post
 title: Masking Your Base Image With FSLogix
 image: 
-  path: /assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/fslogix-base-image-masking.png
+  path: /assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/fslogix-base-image-masking.png
 description: >
   This post will describe the process of using FSLogix App Masking to hide the core set of tools and utilities that an attacker will try to gain access to in order to exploit your platform.<br/><br/>This will need testing before you implement this into production. 
 sitemap: true
@@ -40,21 +40,21 @@ The first thing you will want to do is install the FSLogix product set onto your
 
 Run the ```FSLogixAppsSetup.exe``` file
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/01.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/01.png)
 
 Click to agree to the licensing and click ```install```
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/02.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/02.png)
 
 #### FSLogix Apps Rule Editor
 
 Run the ```FSLogixAppsRuleEditorSetup.exe``` file
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/03.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/03.png)
 
 Click to agree to the licensing and click ```install```
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/04.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/04.png)
 
 I normally install the Rule Editor onto the master image in order to be able to select files, folders and registry keys from the platform that the users will be operating from. You can remove this if required once the rules are set up
 {:.note title="Attention"}
@@ -63,37 +63,37 @@ I normally install the Rule Editor onto the master image in order to be able to 
 
 Once the software is installed on your master image open up ```FSLogix Apps RuleEditor``` from the Start Menu
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/05.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/05.png)
 
 Click on ```New``` to create a new rule and save it to a location you can copy the 2 files from later (in my case I am putting it on the desktop)
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/06.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/06.png)
 
 You will notice 2 files get created, you will need both of these to implement the rule later. One is the rule definition and the other is the assignments.
 
 Select to create a ```Blank Rule Set``` and click OK
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/07.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/07.png)
 
 Right click in the right-hand pain and select ```New Rule```
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/08.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/08.png)
 
 Select ```Hiding Rule``` and click ```Browse```
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/09.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/09.png)
 
 Select to browse for a file
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/10.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/10.png)
 
 Locate the PowerShell executable from the pop-up window that appears
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/11.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/11.png)
 
 Click OK and select ```Yes``` to the system instability warning
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/12.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/12.png)
 
 Repeat this process for all the programs you want to hide from your users. Below are the programs and printers that I normally add
 
@@ -137,13 +137,13 @@ Please note that **EACH ENVIRONMENT DIFFERS**, you will have to test this prior 
 
 Once you are done you should have a fairly robust rule base as you can see below
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/13.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/13.png)
 
 Next you will need to deal with the assignments, this is who this rule applies to, and also who it does not!
 
 Click on ```Manage Assignments``` and remove ```Everyone``` from the list.  Then add ```Domain Users``` and select ```Rule set does apply to user/group``` and also add ```BUILTIN\Administrators``` and select ```Rule set does not apply to user/group```
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/14.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/14.png)
 
 Click to save the rule and close the rule editor.
 
@@ -153,7 +153,7 @@ To deploy your new rule you will need to copy both files to the following locati
 
 This can be done with a start-up script, part of the image seal process or a whole host of other options, that's up to you.
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/15.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/15.png)
 
 ### Testing
 
@@ -161,25 +161,25 @@ First let's test as an Administrator to make sure that everything still works as
 
 As you can see PowerShell still works
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/16.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/16.png)
 
 As does ping
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/17.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/17.png)
 
 So, let's switch to a standard user
 
 You can see that Windows can't even see that a registry editor is installed now, if you try and run it, nothing happens
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/19.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/19.png)
 
 The same with Windows PowerShell
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/20.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/20.png)
 
 So, let's try and run the PowerShell file directly from the file system
 
-![](/assets/img/posts/2023-02-01-masking-your-base-image-with-fslogix/21.png)
+![](/assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/21.png)
 
 As you can see, it's not there, FSLogix App Masking is doing its job and "masking" those files we defined earlier from the user.
 
