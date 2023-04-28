@@ -62,6 +62,6 @@ You can find the link to it [here](https://portal.nutanix.com/page/documents/sol
 
 Securing your Citrix Virtual Apps and Desktops environment is tough but by using products like Nutanix Flow Network Segmentation you can make things a little easier.  I have found the configuration and implementation of the product really easy and intuitive and very good at improving your security posture right from the Prism Central interface.
 
-Word of warning though, MAKE SURE YOU MAP THINGS OUT FIRST! Whilst implementing this I got bitten a few times by missing a port or protocol from the allow list so double-check your network diagram before applying the policies to ensure no downtime!
+Word of warning though, **MAKE SURE YOU MAP THINGS OUT FIRST!** Whilst implementing this I got bitten a few times by missing a port or protocol from the allow list so double-check your network diagram before applying the policies to ensure no downtime!
 
 Thanks for reading.
