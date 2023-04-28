@@ -170,7 +170,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:      UA-38537214-1
+# google_analytics:      UA-38537214-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
@@ -340,7 +340,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-# google_site_verification: <verification-id>
+google_site_verification: iW7FX5UdtTwRg2K5qQJtx9F_MoEbsdbSlZWWVGP5B7k
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
