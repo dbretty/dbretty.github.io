@@ -4,17 +4,14 @@ layout: list
 
 # The title of the tag's page.
 title: Citrix Optimizer Automation
-
-image: 
-  path: /assets/img/posts/2023-04-28-nutanix-flow-network-security/2023-04-28-nutanix-flow-network-security.png
   
 # The name of the tag, used in a post's front matter (e.g. tags: [<slug>]).
 slug: citrixoptimizerautomation
 
 # (Optional) Write a short (~150 characters) description of this featured tag.
 description: >
-  Below you will details about the Citrix Optimizer Automation PowerShell module.</br></br>
-  You can find the Github Repo for the Module [here](https://github.com/dbretty/CitrixOptimizerAutomation)</br>
+  Below you will details about the Citrix Optimizer Automation PowerShell module.<br/><br/>
+  You can find the Github Repo for the Module [here](https://github.com/dbretty/CitrixOptimizerAutomation)<br/>
   The PowerShell Gallery module is located [here](https://www.powershellgallery.com/packages/CitrixOptimizerAutomation)
 
 # (Optional) You can disable grouping posts by date.
