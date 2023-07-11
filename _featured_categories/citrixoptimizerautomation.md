@@ -12,7 +12,8 @@ slug: citrixoptimizerautomation
 description: >
   Below you will details about the Citrix Optimizer Automation PowerShell module.<br/><br/>
   You can find the Github Repo for the Module [here](https://github.com/dbretty/CitrixOptimizerAutomation)<br/>
-  The PowerShell Gallery module is located [here](https://www.powershellgallery.com/packages/CitrixOptimizerAutomation)
+  The PowerShell Gallery module is located [here](https://www.powershellgallery.com/packages/CitrixOptimizerAutomation)<br/><br/>
+  The CHANGELOG for the module can be found [here](https://bretty.me.uk/changelog)
 
 # (Optional) You can disable grouping posts by date.
 # no_groups: true
