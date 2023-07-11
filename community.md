@@ -24,6 +24,7 @@ Below are some community blogs that I follow and think are worth taking a look a
 | Aaron Parker | [https://stealthpuppy.com](https://stealthpuppy.com) | 
 | Carl Stalhood | [https://carlstalhood.com](https://carlstalhood.com) | 
 | Kasper Johansen| [https://virtualwarlock.net](https://virtualwarlock.net) | 
+| Kees Baggerman | [https://blog.myvirtualvision.com/](https://blog.myvirtualvision.com/) |
 
 ## Ultra Running
 
