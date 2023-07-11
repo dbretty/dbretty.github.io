@@ -51,6 +51,8 @@ menu:
     url:               /blog/
   - title:             Scripts
     url:               /scripts/
+  - title:             Citrix Optimizer Automation
+    url:               /citrixoptimizerautomation/
   - title:             About
     url:               /about/
   - title:             Community
