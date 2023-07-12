@@ -10,6 +10,12 @@ sitemap: true
 
 ## v2307
 
+### v2307.004
+
+- Updated Verbose output and code commenting
+- Added additional examples for ```New-CitrixTemplateScript```
+- ```New-CitrixTemplateScript``` added
+  
 ### v2307.003
 
 - Added switch to service cmdlet to allow for Enable and Disable service

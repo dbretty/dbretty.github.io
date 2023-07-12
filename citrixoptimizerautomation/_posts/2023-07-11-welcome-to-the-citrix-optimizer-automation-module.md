@@ -27,6 +27,7 @@ The latest version available via the PSGallery and includes the following cmdlet
 - ```New-CitrixTemplateService```
 - ```New-CitrixTemplateTask```
 - ```New-CitrixTemplateRegistry```
+- ```New-CitrixTemplateScript```
 
 Details of how these ```cmdlets``` work can be found in the MD help files on the [Github Repo](https://github.com/dbretty/CitrixOptimizerAutomation).
 
