@@ -18,24 +18,18 @@ It's no secret that Citrix have a great optimization tool for your base images. 
 
 But, what if you want to automate the creation of a template based on a text file full of registry keys or a CSV file that you have spent ages getting together with all of your optimal setting in. Well, that's where this module comes in, you can automate the creation of your Citrix Optimizer Templates in order to rule out the huge amount of time you will need to spend in the GUI and seamlessly create new templates for your deployment.
 
-### Version 2307.002
+### Latest Version
 
-The current version available via the PSGallery is v2307.002 and includes the following cmdlets:
+The latest version available via the PSGallery and includes the following cmdlets:
 
 - ```New-CitrixTemplate```
 - ```New-CitrixTemplateGroup```
 - ```New-CitrixTemplateService```
 - ```New-CitrixTemplateTask```
+- ```New-CitrixTemplateRegistry```
 
 Details of how these ```cmdlets``` work can be found in the MD help files on the [Github Repo](https://github.com/dbretty/CitrixOptimizerAutomation).
 
 I have tried my best to ensure the code is error proof and 'up to standard' but please, if you find issues feel free to report them on Github and I will do my best to resolve them asap.
-
-### Future Versions
-
-This is the first version of the module, and I am currently working on the following ```cmdlets``` that should be available soon:
-
-- ```New-CitrixTemplateRegistry```
-- ```Remove-CitrixTemplateRegistry```
 
 Thanks for reading.

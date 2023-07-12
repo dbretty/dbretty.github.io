@@ -10,6 +10,12 @@ sitemap: true
 
 ## v2307
 
+### v2307.003
+
+- Added switch to service cmdlet to allow for Enable and Disable service
+- Added additional examples
+- ```New-CitrixTemplateRegistry``` added
+  
 ### v2307.002
 
 - Updates to all help files
