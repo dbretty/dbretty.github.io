@@ -10,6 +10,9 @@ sitemap: true
 
 ## v2307
 
+### v2307.005
+
+- Added fixes for ```Get-TaskDetail``` and ```Set-PowerShellFormat``` functions
 ### v2307.004
 
 - Updated Verbose output and code commenting

@@ -18,6 +18,8 @@ It's no secret that Citrix have a great optimization tool for your base images. 
 
 But, what if you want to automate the creation of a template based on a text file full of registry keys or a CSV file that you have spent ages getting together with all of your optimal setting in. Well, that's where this module comes in, you can automate the creation of your Citrix Optimizer Templates in order to rule out the huge amount of time you will need to spend in the GUI and seamlessly create new templates for your deployment.
 
+![](/assets/img/citrixoptimizerautomation/2023-07-11-welcome-to-the-citrix-optimizer-automation-module/2023-07-11-welcome-to-the-citrix-optimizer-automation-module1.png)
+
 ### Latest Version
 
 The latest version available via the PSGallery and includes the following cmdlets:
