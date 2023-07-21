@@ -265,9 +265,7 @@ $Registry = New-CitrixTemplateRegistry -Path $Template.Path -GroupName "Finalize
 
 ### Running The Script
 
-Let's have a look at the script in action.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/No2cR17nnlU" title="Citrix Optimizer Automation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="860" height="615" src="https://www.youtube.com/embed/No2cR17nnlU" title="Citrix Optimizer Automation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Conclusion
 
