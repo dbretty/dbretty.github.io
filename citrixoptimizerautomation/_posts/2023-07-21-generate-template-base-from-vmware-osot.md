@@ -267,7 +267,8 @@ $Registry = New-CitrixTemplateRegistry -Path $Template.Path -GroupName "Finalize
 
 Let's have a look at the script in action.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/No2cR17nnlU" title="Citrix Optimizer OSOT Import" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+[<img src="https://img.youtube.com/vi/No2cR17nnlU/hqdefault.jpg" width="1024" height="768"
+/>](https://youtu.be/No2cR17nnlU)
 
 ### Conclusion
 
