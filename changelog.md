@@ -10,6 +10,13 @@ sitemap: true
 
 ## v2307
 
+### v2307.006
+
+- Added ```Get-CitrixTemplate```
+- Added ```Get-CitrixTemplateGroup```
+- Added ```Get-CitrixTemplateEntry```
+- Added ```New-CitrixTemplateReport```
+
 ### v2307.005
 
 - Added fixes for ```Get-TaskDetail``` and ```Set-PowerShellFormat``` functions
