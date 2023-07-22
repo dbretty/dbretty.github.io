@@ -48,13 +48,13 @@ Update-Module -Name CitrixOptimizerAutomation -Force
 
 Once you have the module installed it's as simple as running the below command passing in the path to the XML file (Citrix Optimizer Template) you want the report for.
 
-```PowerShell
+```powershell
 New-CitrixTemplateReport -Path $Path "Bretty VMware OSOT Import.xml" -All
 ```
 
 That command will take the XML file and produce a report for every setting contained within it.  If you don't want it all, say you just want the registry entries defines you would type in the following.
 
-```PowerShell
+```powershell
 New-CitrixTemplateReport -Path $Path "Bretty VMware OSOT Import.xml" -Registry
 ```
 
@@ -70,7 +70,7 @@ The switches available are
 
 If you want more that one entry type then you can combine the switches as below.
 
-```PowerShell
+```powershell
 New-CitrixTemplateReport -Path $Path "Bretty VMware OSOT Import.xml" -Registry -ScheduledTask -PowerShell
 ```
 
