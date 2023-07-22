@@ -74,6 +74,8 @@ If you want more that one entry type then you can combine the switches as below.
 New-CitrixTemplateReport -Path $Path "Bretty VMware OSOT Import.xml" -Registry -ScheduledTask -PowerShell
 ```
 
+The function will create a REPORT.MD file in the same directory that you run the cmdlet from.
+
 ### Examples Of Output
 
 Below are some screenshots of what you can expect to see in the report.
