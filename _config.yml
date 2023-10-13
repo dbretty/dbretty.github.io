@@ -50,10 +50,12 @@ author:
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Scripts
-    url:               /scripts/
   - title:             Projects
     url:               /projects/
+  - title:             Scripts
+    url:               /scripts/
+  - title:             Ultra Running
+    url:               /ultra/
   - title:             About
     url:               /about/
 
