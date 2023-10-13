@@ -4,7 +4,7 @@ title: Masking Your Base Image With FSLogix
 image: 
   path: /assets/img/posts/2023-01-31-masking-your-base-image-with-fslogix/fslogix-base-image-masking.png
 description: >
-  This post will describe the process of using FSLogix App Masking to hide the core set of tools and utilities that an attacker will try to gain access to in order to exploit your platform.<br/><br/>This will need testing before you implement this into production. 
+  This post will describe the process of using FSLogix App Masking to hide the core set of tools and utilities that an attacker will try to gain access to in order to exploit your platform.
 sitemap: true
 categories: [Citrix, VDA, Security]
 comments: true

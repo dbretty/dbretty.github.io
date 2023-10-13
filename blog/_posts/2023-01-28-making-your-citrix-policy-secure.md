@@ -4,7 +4,7 @@ title: Making Your Citrix Policy Secure - By Default
 image: 
   path: /assets/img/posts/2023-01-28-making-your-citrix-policy-secure/citrix-policies.png
 description: >
-  This post will outline the reasons why you should take a look at your Citrix Policies that come out the box and how to secure them.<br/><br/>Not all defaults are best, they make users happy but what about your SecOps teams? 
+  This post will outline the reasons why you should take a look at your Citrix Policies that come out the box and how to secure them.
 sitemap: true
 categories: [Citrix, VDA, Security]
 comments: true

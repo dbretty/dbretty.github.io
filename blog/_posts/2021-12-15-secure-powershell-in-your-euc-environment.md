@@ -4,7 +4,7 @@ title: Secure PowerShell in your EUC Environment
 image: 
   path: /assets/img/posts/2021-12-15-secure-powershell-in-your-euc-environment/secure-powershell.png
 description: >
-  This post will outline the ways in which you can secure PowerShell in your EUC environment.<br/><br/>Please note that this is not specific to Citrix and will work on any remote desktop technology stack 
+  This post will outline the ways in which you can secure PowerShell in your EUC environment.
 sitemap: true
 categories: [Citrix, VDA, Security, PowerShell]
 comments: true

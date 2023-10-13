@@ -4,7 +4,7 @@ title: Secure Lateral Movement
 image: 
   path: /assets/img/posts/2022-07-19-secure-lateral-movement/lateral-movement.png
 description: >
-  This post will walk you through securing lateral movement in your EUC environment.<br/><br/>This will help with security as it will prevent your users moving from one system to the next in your production environment. 
+  This post will walk you through securing lateral movement in your EUC environment.
 sitemap: true
 categories: [Security, VDA, Citrix]
 comments: true

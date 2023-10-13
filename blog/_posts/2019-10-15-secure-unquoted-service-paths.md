@@ -4,7 +4,7 @@ title: Secure Unquoted Service Paths
 image: 
   path: /assets/img/posts/2019-10-15-secure-unquoted-service-paths/unquoted-services.png
 description: >
-  This post will walk you through a common flaw with service paths and quoting. <br/><br/>Being able to inject an executable into a service path can cause you all sorts of issues with your security teams.
+  This post will walk you through a common flaw with service paths and quoting.
 sitemap: true
 categories: [Security, Citrix]
 comments: true

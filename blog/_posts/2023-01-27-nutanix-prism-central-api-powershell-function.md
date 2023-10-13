@@ -4,7 +4,7 @@ title: Nutanix Prism Central API Call from PowerShell
 image: 
   path: /assets/img/posts/2023-01-27-nutanix-prism-central-api-powershell-function/api.png
 description: >
-  This post will show you how to gather information from the Nutanix Prism Central API using PowerShell.<br/><br/>This code can also be wrapped into a function and re-used to get any information back from the API. 
+  This post will show you how to gather information from the Nutanix Prism Central API using PowerShell.
 sitemap: true
 categories: [PowerShell, Nutanix, Citrix]
 comments: true

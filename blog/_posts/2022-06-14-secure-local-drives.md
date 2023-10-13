@@ -4,7 +4,7 @@ title: Secure Local Drive Access
 image: 
   path: /assets/img/posts/2022-06-14-secure-local-drives/secure-local-drives.png
 description: >
-  This post will walk you through securing your local drive access on your end points.<br/><br/>This will help with security as it will prevent your users browsing the local system and 'testing' out access. 
+  This post will walk you through securing your local drive access on your end points.
 sitemap: true
 categories: [Security, VDA, Citrix]
 comments: true

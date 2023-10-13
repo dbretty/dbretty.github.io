@@ -4,7 +4,7 @@ title: Using CIS in your End User Computing Environment
 image: 
   path: /assets/img/posts/2023-02-07-using-cis-in-your-euc-environment/using-cis.png
 description: >
-  This post will describe the process of using reviewing, configuring and implementing CIS controls in your End User Computing Environment.<br/><br/>Please note that this will cost time if you want to go down the 'free' route but its worth it in the long run! 
+  This post will describe the process of using reviewing, configuring and implementing CIS controls in your End User Computing Environment.
 sitemap: true
 categories: [EUC, Security]
 comments: true

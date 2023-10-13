@@ -51,12 +51,10 @@ menu:
     url:               /blog/
   - title:             Scripts
     url:               /scripts/
+  - title:             Projects
+    url:               /projects/
   - title:             About
     url:               /about/
-  - title:             Community
-    url:               /community/
-  - title:             Citrix Optimizer Automation
-    url:               /citrixoptimizerautomation/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -252,7 +250,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      false
+  cookies_banner:      true
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
@@ -261,7 +259,7 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
-  hide_dates:          false
+  hide_dates:          true
 
   # TODO
   hide_last_modified:  true

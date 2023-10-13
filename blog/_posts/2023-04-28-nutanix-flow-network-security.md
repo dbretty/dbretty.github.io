@@ -4,7 +4,7 @@ title: Nutanix Flow Network Security with Citrix Virtual Apps and Desktops
 image: 
   path: /assets/img/posts/2023-04-28-nutanix-flow-network-security/2023-04-28-nutanix-flow-network-security.png
 description: >
-  This post will run through what Nutanix Flow Network Security is as well as steps that you could take to secure your Citrix Virtual Apps and Desktops environment using network segmentation.<br/><br/>This post is meant as a starting point and will give you a good understanding of what Nutanix Flow Network Security is as well as how to start out implementing it. 
+  This post will run through what Nutanix Flow Network Security is as well as steps that you could take to secure your Citrix Virtual Apps and Desktops environment using network segmentation.
 sitemap: true
 categories: [Security, Nutanix, Citrix]
 comments: true

@@ -8,7 +8,11 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Senior Solutions Architect in End User Computing, Geek and #UltraMarathon runner with a passion for delivering solutions that are innovative, resilient, performant and most importantly great for the end user to work on and use.
+    In currently a Senior Solutions Architect in End User Computing working at Nutanix, Geek and Ultra Marathon runner. 
+    
+    I enjoy all things End User Computing with a splash of networking thrown in the mix to make things a little more complicated! I also love to run long distance ultra marathons and visit the pain cave as often as I can!
+    
+    The views on here are my own and not those of my employer.
 
   # This photo will be used in the about section
   picture:
@@ -25,7 +29,7 @@ author1:
     twitter:         dbretty
     github:          dbretty
     email:           dave@bretty.me.uk
-    # rss:             https://<url>/feed.xml
+    rss:             https://bretty.me.uk/feed.xml
     # facebook:        <username>
     # google:          <number>
     # vk:              <username>
