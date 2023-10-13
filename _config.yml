@@ -44,7 +44,6 @@ author:
   email:               dave@bretty.me.uk
   # # Used by `jekyll-seo-tag`:
   twitter:             dbretty
-  rss: https://bretty.me.uk/feed.xml
 
 # Add links to the sidebar.
 menu:
@@ -82,7 +81,7 @@ paginate_path:         /blog/:num/
 # ---------------------------------------------------------------------------------------
 
 #theme: jekyll-theme-hydejack
-#remote_theme: hydecorp/hydejack@v9
+remote_theme: hydecorp/hydejack
 
 
 # Customizaton
