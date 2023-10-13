@@ -20,7 +20,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 bretty.me.uk
+title:                 Dave Brett
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -30,7 +30,7 @@ description:           >
 tagline:               EUC Geek and Ultra Runner
 
 # A list of keywords for your blog
-keywords:              ["Citrix, NetScaler, Cloud, PowerShell, Community, DaaS, Profiles, CVAD, EUC, Nutanix, Microsoft, AWS, VMWare"]
+keywords:              ["Running, Ultra, Ultramarathon, Citrix, NetScaler, Cloud, PowerShell, Community, DaaS, Profiles, CVAD, EUC, Nutanix, Microsoft, AWS, VMWare"]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
