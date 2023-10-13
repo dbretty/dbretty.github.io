@@ -3,13 +3,13 @@
 
 # Uncomment and set the URL of your site (with protocol, e.g. `https://`)
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-url:                   https://www.bretty.me.uk
+# url:                   https://username.github.io
 
 # Uncomment and set the "base URL" of your site.
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-baseurl:               ''
+# baseurl:               '/hydejack-starter-kit'
 
 
 # General settings
@@ -20,17 +20,19 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 bretty.me.uk
+title:                 Hydejack
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  bretty.me.uk is an EUC Geek and Ultra Runner. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey as well as some useful Ultra Running links.
+  Hydejack is a boutique Jekyll theme for hackers, nerds, and academics,
+  with a focus on personal sites that are meant to impress.
+
 # A shorter description for the sidebar.
-tagline:               EUC Geek and Ultra Runner
+tagline:               Change `tagline` in `_config.yml`
 
 # A list of keywords for your blog
-keywords:              ["Citrix, NetScaler, Cloud, PowerShell, Community, DaaS, Profiles, CVAD, EUC, Nutanix, Microsoft, AWS, VMWare"]
+keywords:              []
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -40,38 +42,37 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                Dave Brett
-  email:               dave@bretty.me.uk
+  name:                <firstname> <lastname>
+  email:               <mail@domain.tld>
   # # Used by `jekyll-seo-tag`:
-  twitter:             dbretty
-  rss: https://bretty.me.uk/feed.xml
+  # twitter:             <username>
 
 # Add links to the sidebar.
 menu:
   - title:             Blog
     url:               /blog/
-  - title:             Scripts
-    url:               /scripts/
   - title:             Projects
     url:               /projects/
-  - title:             About
-    url:               /about/
+  - title:             Résumé*
+    url:               /resume/
+  - title:             Documentation
+    url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
-#legal:
-#  - title:             LICENSE
-#    url:               /LICENSE/
-#  - title:             NOTICE
-#    url:               /NOTICE/
-#  - title:             CHANGELOG
-#    url:               /CHANGELOG/
+legal:
+  - title:             LICENSE
+    url:               /LICENSE/
+  - title:             NOTICE
+    url:               /NOTICE/
+  - title:             CHANGELOG
+    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2023. All rights reserved.
+copyright:             © 2021. All rights reserved.
 
 # Format of the permalinks
-permalink:             /:categories/:year-:month-:day-:title/
+permalink:             /blog/:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
@@ -81,21 +82,21 @@ paginate_path:         /blog/:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
-#remote_theme: hydecorp/hydejack@v9
+# theme: jekyll-theme-hydejack
+# remote_theme: hydecorp/hydejack@v9
 
 
 # Customizaton
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/background.jpg
-accent_color:          rgb(255,153,51)
+accent_image:          /assets/img/sidebar-bg.jpg
+accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(255,153,51)
+theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -130,6 +131,7 @@ defaults:
     values:
       sitemap:         false
 
+  # Don't include licenses in sitemap (feel free to delete)
   - scope:
       path:            licenses/
     values:
@@ -137,10 +139,10 @@ defaults:
       sitemap:         false
 
   # # You can use the following to enable comments on all posts.
-  - scope:
-      type:            posts
-    values:
-      comments:        true
+  # - scope:
+  #     type:            posts
+  #   values:
+  #     comments:        true
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -171,11 +173,11 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-38537214-1
+# google_analytics:      UA-XXXXXXXX-X
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                bretty-me-uk
+# disqus:                <username>
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
@@ -251,7 +253,7 @@ hydejack:
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
-  cookies_banner:      true
+  cookies_banner:      false
 
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
@@ -260,10 +262,10 @@ hydejack:
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
-  hide_dates:          true
+  hide_dates:          false
 
   # TODO
-  hide_last_modified:  true
+  hide_last_modified:  false
 
   # Note that dark mode only works in the PRO version of Hydejack.
   dark_mode:
@@ -292,7 +294,7 @@ hydejack:
 
 collections:
   featured_categories:
-    permalink:         /:name/
+    permalink:         /blog/:name/
     output:            true
 
   featured_tags:
@@ -308,6 +310,8 @@ collections:
 # ----------------------------------------------------------------------------------------
 
 exclude:
+  - ./#jekyll-theme-hydejack/node_modules
+  - ./#jekyll-theme-hydejack/.git
   - .jekyll-cache
   - .sass-cache
   - '*.toml'
@@ -341,7 +345,7 @@ plugins:
 # ---------------------------------------------------------------------------------------
 
 # Where you proof that you own this site (used by jekyll-seo-tag)
-google_site_verification: iW7FX5UdtTwRg2K5qQJtx9F_MoEbsdbSlZWWVGP5B7k
+# google_site_verification: <verification-id>
 # -- or --
 # webmaster_verifications:
 #   google:              <verification-id>
@@ -350,8 +354,8 @@ google_site_verification: iW7FX5UdtTwRg2K5qQJtx9F_MoEbsdbSlZWWVGP5B7k
 #   yandex:              <verification-id>
 
 # Used for twitter cards
-twitter:
-  username:            dbretty
+# twitter:
+#   username:            <username>
 
 # Used for facebook open graph
 # facebook:
@@ -360,11 +364,11 @@ twitter:
 #   admins:              <id>
 
 # Used on index and about sites
-social:
-  name:                Dave Brett
-  links:
-    - https://twitter.com/dbretty
-    - https://github.com/dbretty
+# social:
+#   name:                <firstname> <lastname>
+#   links:
+#     - https://twitter.com/<username>
+#     - https://github.com/<username>
 
 
 # Plugin Configs
@@ -393,6 +397,7 @@ compress_html:
 sass:
   style:               compressed
 
+
 # Jekyll Compose Defaults
 # ---------------------------------------------------------------------------------------
 
@@ -412,7 +417,6 @@ jekyll_compose:
         social media previews, etc.
       image:
         path: /assets/img/sidebar-bg.jpg
-      applause_button: true
     projects:
       layout: project
       description: > 
