@@ -19,12 +19,10 @@ featured:    false
 
 PowerShell module to automate the management of Nutanix Cloud Platform using the version 4 api's. Simple pre-build cmdlets such as:
 
-```powershell
-Get-PrismAlert
-Get-PrismAudit
-Get-LCMConfig
-Get-LCMEntity
-```
+- Get-PrismAlert
+- Get-PrismAudit
+- Get-LCMConfig
+- Get-LCMEntity
 
 The reason behind creating this module is to enable fellow Nutanix fans to easily manage their environment using PowerShell as the v4 Api continues to grow. 
 
