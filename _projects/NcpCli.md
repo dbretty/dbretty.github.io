@@ -17,14 +17,25 @@ links:
 featured:    false
 ---
 
-PowerShell module to automate the management of Nutanix Cloud Platform using the version 4 api's. Simple pre-build cmdlets such as:
+PowerShell module to automate the management of Nutanix Cloud Platform using the version 4 api's. Details of the currently implemented commands are shown in the help files listed below.
 
-- Get-PrismAlert
-- Get-PrismAudit
-- Get-LCMConfig
-- Get-LCMEntity
+| Section | Description |
+| :--- | :--- |
+| [Nutanix.NcpCli.Core](https://github.com/dbretty/NcpCli/tree/main/Help/Nutanix.NcpCli.Core/README.md) | Core Functions applicable to all other functions. |
+| [Nutanix.NcpCli.Prism](https://github.com/dbretty/NcpCli/tree/main/Help/Nutanix.NcpCli.Prism/README.md)  | Prism Functions. |
+| [Nutanix.NcpCli.LCM](https://github.com/dbretty/NcpCli/tree/main/Help/Nutanix.NcpCli.LCM/README.md)  | Lift Cycle Management Functions. |
 
-The reason behind creating this module is to enable fellow Nutanix fans to easily manage their environment using PowerShell as the v4 Api continues to grow. 
+The reason behind creating this module is to enable fellow Nutanix fans to easily manage their environment using PowerShell as the v4 api continues to grow. 
+
+## Implemented Supported Versions
+
+In order to use this module you will have to have the following prerequisites in place.
+
+| Module | Prism Central Version | AOS Version |
+| :--- | :--- | :--- |
+| Nutanix.NcpCli.Core | ps2022.6 or later | 6.5 or later |
+| Nutanix.NcpCli.Prism | ps2022.6 or later | 6.5 or later |
+| Nutanix.NcpCli.LCM | ps2022.6 or later | 6.5 or later |
 
 ## Installing the Module
 
