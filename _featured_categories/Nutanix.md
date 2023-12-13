@@ -12,10 +12,4 @@ slug: Nutanix
 description: >
   Below you will find all the blog posts and Scripts that are related to Nutanix
 
-# (Optional) You can disable grouping posts by date.
-no_groups: true
-
-# Exclude this example category from the sitemap.
-# DON'T USE THIS SETTING IN YOUR CATEGORIES!
-sitemap: false
 ---
