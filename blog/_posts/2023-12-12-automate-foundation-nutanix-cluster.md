@@ -5,6 +5,8 @@ image:
   path: /assets/img/posts/2023-12-12-foundation-nutanix-cluster-with-ansible-and-powershell/header_image.png
 description: >
   This post will show you how you foundation your Nutanix Clusters with Ansible to automate the build of your Nutanix assets.
+redirect_from: 
+    - /blog/nutanix/ansible/automation/2023-12-12-automate-foundation-nutanix-cluster
 sitemap: true
 categories: [Nutanix, Ansible, Automation]
 comments: true
