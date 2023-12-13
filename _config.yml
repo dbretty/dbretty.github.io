@@ -25,7 +25,7 @@ title:                 Dave Brett
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  bretty.me.uk is an EUC Geek and Ultra Runner. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey as well as some useful Ultra Running links.
+  bretty.me.uk is an EUC Geek and Ultra Runner. You will find a bunch of blog posts, scripts and tips that will help you with your EUC journey.
 # A shorter description for the sidebar.
 tagline:               EUC Geek and Ultra Runner
 
@@ -54,8 +54,6 @@ menu:
     url:               /projects/
   - title:             Scripts
     url:               /scripts/
-  - title:             Ultra
-    url:               /ultra/
   - title:             About
     url:               /about/
 
