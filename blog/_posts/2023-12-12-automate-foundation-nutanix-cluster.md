@@ -193,3 +193,5 @@ With the above you can see that it is possible to build an automation wrapper to
 The above may not be perfect. My Ansible skills are slim to say the least as are my PowerShell coding skills, but I have found that this is a good balance of easy to manage code and getting things done in an automated and consistent manner.
 
 Please, if you have a better way to do this I am all ears, feel free to get in touch.
+
+Thanks to "The Doc" [Sven](https://twitter.com/svenh) for all his help in getting this working!
