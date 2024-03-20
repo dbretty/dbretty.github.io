@@ -23,15 +23,15 @@ This utility will allow you to manage your End User Computing (EUC) profiles dir
 
 ## Installing EUC Profile Buddy
 
-To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUCProfileBuddy/releases/tag/2402.001) repository and run it in the user context. When you launch the application with no command line switches it will run from the system tray by default and you will see the following tray notification.
+To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUC.Profile.Buddy) repository and run it in the user context. When you launch the application with no command line switches it will run from the system tray by default and you will see the following tray notification.
 
-![](/assets/img/posts/EUCProfileBuddy/EUCProfileBuddy_01.png)
+![](/assets/img/posts/EUCProfileBuddy/EUC_01.png)
 
 If you double click on the icon it will open up the utility and allow you to start to manage your profile.
 
 ## Using EUC Profile Buddy (User Context)
 
-Running EUC Profile Buddy in the user context is simple, its a single exe ```EUCProfileBuddy.exe``` file that you can launch at login using any number of methods. Once launched the user just has to double click the system tray icon to open up the application.
+Running EUC Profile Buddy in the user context is simple, its a single exe ```EUC.Profile.Buddy.GUI.exe``` file that you can launch at login using any number of methods. Once launched the user just has to double click the system tray icon to open up the application.
 
 <note>
 You will have to have system tray icons available and notifications enabled in order to get the full functionality of EUC Profile Buddy.
@@ -50,21 +50,23 @@ From the main display screen they are able to see the following details:
 - User Name
 - Profile Directory
 - Profile Size
+- Profile Type
+- AppData Local
+- AppData Roaming
+- Current Directory
 - Data Browser
   
 #### Additional Details
 
-If you click on the ```Show Detail``` button
+If you click on the ```Info``` button
 
-![](/assets/img/posts/EUCProfileBuddy/EUC_03.png)
-
-An additional screen will pop up with a scrollable box containing the relevant configuration settings in place for your profile solution. Currently the tool supports:
+An additional screen will pop up with a scrollable boxes containing the relevant configuration settings in place for your profile solution. Currently the tool supports:
 
 - Local Profile
 - Citrix Profile Management
 - Microsoft FSLogix
 
-![](/assets/img/posts/EUCProfileBuddy/EUC_04.png)
+![](/assets/img/posts/EUCProfileBuddy/EUC_03.png)
 
 You can close this window using the X in the top right of the form.
 
@@ -76,29 +78,25 @@ On the main screen there is a data browser sorted by folder size. You can double
 
 The example below shows the AppData folder in my profile.
 
-![](/assets/img/posts/EUCProfileBuddy/EUC_05.png)
+![](/assets/img/posts/EUCProfileBuddy/EUC_04.png)
 
-To go ```Up``` or ```back a level``` use the back button shown below.
-
-![](/assets/img/posts/EUCProfileBuddy/EUC_06.png)
+To go ```Up``` or ```back a level``` use the back button <<.
 
 #### Deleting Files
 
 To remove files and folders from your profile you are able to right click on any item displayed in the data browser and select ```Delete```
 
-![](/assets/img/posts/EUCProfileBuddy/EUC_07.png)
+![](/assets/img/posts/EUCProfileBuddy/EUC_05.png)
 
 This will prompt you to delete the files.
 
-![](/assets/img/posts/EUCProfileBuddy/EUC_08.png)
+![](/assets/img/posts/EUCProfileBuddy/EUC_06.png)
 
 Once selected it will remove the data from the profile and recalculate the profile size.
 
 ### Common Tasks
 
-There are a number of common tasks available that will allow the user to execute certain actions within their profiles without admin intervention. These are available from the ```Select Action``` drop down at the bottom of the screen then clicking the ```Execute Action``` button.
-
-![](/assets/img/posts/EUCProfileBuddy/EUC_09.png)
+There are a number of common tasks available that will allow the user to execute certain actions within their profiles without admin intervention. These are available from the ```Select Action``` drop down at the bottom of the screen then clicking the ```Go``` button.
 
 #### Clear Temp Files
 
@@ -179,10 +177,10 @@ The CustomScripts value is a ```REG_MULTI_SZ``` type and contains a list of scri
 
 ## Requesting New Features
 
-To request a new feature for EUC Profile Buddy please use [this](https://github.com/dbretty/EUCProfileBuddy/issues/new/choose) GitHub feature request form.
+To request a new feature for EUC Profile Buddy please use [this](https://github.com/dbretty/EUC.Profile.Buddy/issues/new/choose) GitHub feature request form.
 
 ## Reporting Bugs
 
-To report a bug in EUC Profile Buddy please use [this](https://github.com/dbretty/EUCProfileBuddy/issues/new/choose) GitHub bug form.
+To report a bug in EUC Profile Buddy please use [this](https://github.com/dbretty/EUC.Profile.Buddy/issues/new/choose) GitHub bug form.
 
 If you would like to get in touch with me for any reason or request new features for the utility then you can use [this](/contact) form or email me at [dave@bretty.me.uk](mailto:dave@bretty.me.uk)
