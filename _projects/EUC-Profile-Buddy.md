@@ -11,7 +11,7 @@ description: >
   This tool will allow your admins and end users to manage their profile from a system tray application or command line, get specific details about the configuration settings as well as perform common tasks.
 links:
   - title:   Source
-    url:     https://github.com/dbretty/EUCProfileBuddy
+    url:     https://github.com/dbretty/EUC.Profile.Buddy
   - title:   Change Log
     url:     /EUCProfileBuddy/changelog/
 featured:    false
