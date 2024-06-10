@@ -2,16 +2,16 @@
 layout: page
 title: Change Log
 description: >
-  Lightbox Change Log, details of all the enhancements, fixes and features gone into the application.
+  EUC Profile Buddy Server Change Log, details of all the enhancements, fixes and features gone into the application.
 hide_description: false
 sitemap: true
 ---
 * 
 {:toc}
 
-## v1.0.0
+## v2406
 
-### v1.0.0
+### v24036.01
 
 - Initial Release
 
