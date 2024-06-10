@@ -1,7 +1,7 @@
 ---
 layout:      project
 title:       Lightbox Monitor
-date:        10 Jun 2022
+date:        10 Jun 2024
 image:
   path:       /projects/images/Lightbox.png
 caption:     Utility to automate WLED Api Posts.
