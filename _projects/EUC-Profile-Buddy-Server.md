@@ -23,9 +23,27 @@ This Blazor web application will allow you to contrally manage your EUC Profile 
 
 ## Installing EUC Profile Buddy Server
 
-To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUC.Profile.Buddy.Server) repository and run it on your chosen web server. When you launch the application it will run on port 5206.
+To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUC.Profile.Buddy.Server/releases) repository and extract the files into a directory on your Windows Server. When you launch the application it will run on port 8080.
 
 ![](/assets/img/posts/EUCProfileBuddyServer/EUC_01.png)
+
+## Setting Up The EUC Profile Buddy Service
+
+To run EUC Profile Buddy Server as a Windows Service open a command prompt on your Windows Server as Administrator and run the following command.
+
+```SC CREATE <SERVICE_NAME> binPath="<BIN_PATH"```
+
+example:
+```SC CREATE EUC.Profile.Buddy.Server binPath="C:\WebServer\EUC.Profile.Buddy.Web.exe"```
+
+## Client Side Configuration
+
+By default the EUC Profile Buddy client will not log to a central server. In order to enable this logging you need to deploy 2 registry keys to the following path ```HKEY_CURRENT_USER\Software\EUCProfileBuddy```
+
+- LogToServer (String [Yes/No])
+- LoggingServer (String [Server FQDN])
+
+Once done the clients will start to log back to the central server.
 
 ## Using EUC Profile Buddy Server
 
