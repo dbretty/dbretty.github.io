@@ -34,6 +34,7 @@ To run EUC Profile Buddy Server as a Windows Service open a command prompt on yo
 ```SC CREATE <SERVICE_NAME> binPath="<BIN_PATH"```
 
 example:
+
 ```SC CREATE EUC.Profile.Buddy.Server binPath="C:\WebServer\EUC.Profile.Buddy.Web.exe"```
 
 ## Client Side Configuration
