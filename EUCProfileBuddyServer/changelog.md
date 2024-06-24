@@ -11,6 +11,10 @@ sitemap: true
 
 ## v2024
 
+### v2024.06.01
+
+- Added the User Profile Summary API
+  
 ### v2024.06
 
 - Initial Release

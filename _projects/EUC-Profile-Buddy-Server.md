@@ -41,8 +41,10 @@ example:
 
 By default the EUC Profile Buddy client will not log to a central server. In order to enable this logging you need to deploy 2 registry keys to the following path ```HKEY_CURRENT_USER\Software\EUCProfileBuddy```
 
-- LogToServer (String [Yes/No])
-- LoggingServer (String [Server FQDN])
+| Value Name | Type | Options |
+| --- | --- | --- |
+| LogToServer | String | Yes/No |
+| LoggingServer | String | Server FQDN |
 
 Once done the clients will start to log back to the central server.
 
