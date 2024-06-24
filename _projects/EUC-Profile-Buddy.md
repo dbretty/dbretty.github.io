@@ -23,7 +23,7 @@ This utility will allow you to manage your End User Computing (EUC) profiles dir
 
 ## Installing EUC Profile Buddy
 
-To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUC.Profile.Buddy) repository and run it in the user context. When you launch the application with no command line switches it will run from the system tray by default and you will see the following tray notification.
+To install EUC Profile Buddy just download the release from the [GitHub](https://github.com/dbretty/EUC.Profile.Buddy/releases) repository and run it in the user context. When you launch the application with no command line switches it will run from the system tray by default and you will see the following tray notification.
 
 ![](/assets/img/posts/EUCProfileBuddy/EUC_01.png)
 
@@ -137,43 +137,20 @@ along with this the script file will need to be referenced in the CustomScripts 
 
 EUC Buddy will execute PowerShell scripts only so ensure that your script files have a ```.ps1``` file extension.
 
-## Using EUC Profile Buddy (Admin Context)
-
-EUC Profile Buddy will accept the following command line switches allowing it to be run silently as part of a login, logout or maintenance task within the user context.
-
-### Command Line Switches
-
-#### ClearTemp
-
-```/ClearTemp``` will run the same action as the Clear Temp Files option within the application but with no user input.
-
-#### CustomScripts
-
-```/CustomScripts``` will run the same action as the Run Custom Scripts option within the application but with no user input.
-
 ## Configuring EUC Profile Buddy
 
 All configuration for EUC Profile Buddy is done within the registry so it is easy to centrally configure the application using Microsoft Group Policy. The configurable registry values can be found within the following registry key.
 
 ```HKEY_CURRENT_USER\Software\EUCProfileBuddy```
 
-### Directories
-
-The Directories value is a ```REG_MULTI_SZ``` type and contains a list of directories that you would like to consider as temp data. These have to be a fully qualified path from the root of the user profile, an example can be seen below.
-
-```AppData\Local\Temp```
-
-### Files
-
-The Files value is a ```REG_MULTI_SZ``` type and contains a list of files that you would like to consider as temp data. These have to be a fully qualified path from the root of the user profile, an example can be seen below.
-
-```AppData\Local\Temp\file1.txt```
-
-### CustomScripts
-
-The CustomScripts value is a ```REG_MULTI_SZ``` type and contains a list of scripts that you would like to run. These scripts need to reside in the directory listed above, an example can be seen below.
-
-```tempscript.ps1```
+| Value Name | Description | Type | Options |
+| --- | --- | --- | --- |
+| LogToServer | Send task entries to the server side component | String | Yes/No |
+| LoggingServer | FQDN for the server side component | String | Server FQDN |
+| ClearTempAtStart | Clear the temporary data at application startup | String | Yes/No |
+| LogLevel | Logging Level Required | String | Info/Debug |
+| TempDataLocations | Temp Data Directories | Multi-String | AppData\DirectoryName |
+| UserProfileGuid | Unique ID for the User Profile | String | Auto Generated |
 
 ## Requesting New Features
 
