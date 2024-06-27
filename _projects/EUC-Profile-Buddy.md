@@ -14,6 +14,8 @@ links:
     url:     https://github.com/dbretty/EUC.Profile.Buddy
   - title:   Change Log
     url:     /EUCProfileBuddy/changelog/
+  - title:   Install
+    url:     /EUCProfileBuddy/Install/Application/setup.exe
 featured:    false
 ---
 * 
