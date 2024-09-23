@@ -1,7 +1,7 @@
 ---
 layout:      project
 title:       PROFiLiX Server
-date:        1 Oct 2024
+date:        1 Sept 2024
 image:
   path:       /projects/images/PROFiLiXServer.png
 caption:     Blazor server side web application to centrally manage your PROFiLiX client deployment.
@@ -16,6 +16,7 @@ links:
     url:     /PROFiLiXServer/changelog/
 featured:    false
 ---
+
 * 
 {:toc}
 
